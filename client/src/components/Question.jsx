@@ -10,6 +10,7 @@ const Question = () => {
                         <img
                             src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSGe6L%2FbtqwbzLAJul%2Fe6hcNAYx2gYtb5Gwzt79X1%2Fimg.png'
                             alt='noImg'
+                            className=' h-[300px]'
                         />
                     </div>
                 </div>
