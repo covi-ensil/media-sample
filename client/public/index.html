@@ -11,27 +11,17 @@
         />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <script
+            type="text/javascript"
+            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ed791a47f8fdc6c9c1790a09fe8ff602"
+        ></script>
         <!-- <link rel="stylesheet" href="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/media_sample.css"> -->
-        <script
-            async
-            src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/util.js"
-        ></script>
-        <script
-            async
-            src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/covisdk.dev.js"
-        ></script>
-        <script
-            async
-            src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/media_sample.js"
-        ></script>
-        <script
-            type="module"
-            defer
-            src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/a.js"
-        ></script>
-        <script type="module">
-          console.log('ES modules supported');
-        </script>
+        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/util.js"></script>
+        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/covisdk.dev.js"></script>
+
+        <!-- <script async src="https://cnp-file.dev.covi.co.kr/sdk/qunda/covisdk_qunda.js"></script> -->
+        
+        <script async src="https://cnp-file.dev.covi.co.kr/sdk/qunda/covi_qunda.js"></script>
 
         <title>media-sample</title>
     </head>
@@ -39,15 +29,15 @@
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
 
-        <div id="playerContainer">
+        <!-- <div id="playerContainer">
             <video class="playerClass my-6" controls playsinline></video>
         </div>
         <div class="my-4">
             <button onclick="initSdk();" class="flex flex-col items-center">
                 다른 광고 재생
             </button>
-        </div>
+        </div> -->
 
-        <div class="test"></div>
+        <!-- <div class="test"></div> -->
     </body>
 </html>

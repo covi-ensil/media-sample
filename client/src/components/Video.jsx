@@ -1,18 +1,11 @@
-
-import { useRef } from "react";
-// import { player } from "../ex";
+const { initCoviSdk } = window;
 
 const Video = () => {
 
-    // console.log(player)
-
-    const playerRef = useRef(null)
-
     return (
         <>
-            {/* <div id='playerContainer'>
-                <video className='playerClass' controls playsInline ref={playerRef}></video>
-            </div> */}
+            <video className='playerClass' controls playsInline></video>
+            <button onClick={() => initCoviSdk()}>initCoviSdk button</button>
         </>
     );
 };

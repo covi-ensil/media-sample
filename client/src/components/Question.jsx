@@ -2,7 +2,7 @@ import React from 'react';
 
 const Question = () => {
     return (
-        <div>
+        <div className='question '>
             <span className='mb-2'>문제</span>
             <div className='flex flex-col'>
                 <div className='mt-[2px] mb-2 px-4 bg-gray-200'>
