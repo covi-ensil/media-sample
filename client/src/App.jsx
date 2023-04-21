@@ -11,14 +11,11 @@ const {initCoviSdk} = window
 function App() {
   const [solutionStyle, setSolutionStyle] = useState('콴다 선생님')
   const [firstLoading, setFirstLoading] = useState(0)
-
-  // console.log(solutionStyle)
-  // console.log(firstLoading)
   
     return (
         <BrowserRouter>
             <div className='flex justify-center'>
-                <div className='top-24 w-[380px] pt-4 border-4 border-black rounded-[2rem]'>
+                <div className='top-24 w-[380px] md:w-[1000px] pt-4 border-4 border-black rounded-[2rem]'>
                   <div id='content' className='px-4'>
                     <Topbanner />
                     <Question />
@@ -33,7 +30,7 @@ function App() {
                         <Solution />
                       </Route>
                       <Route path="/lecture">
-                        <Lecture initCoviSdk={initCoviSdk} solutionStyle={solutionStyle} />
+                        <Lecture initCoviSdk={initCoviSdk} solutionStyle={solutionStyle} firstLoading={firstLoading} setFirstLoading={setFirstLoading} />
                       </Route>
                     </Switch>
                     </div>

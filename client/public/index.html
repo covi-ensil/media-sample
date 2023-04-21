@@ -11,17 +11,29 @@
         />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <script
+        <!-- <script
             type="text/javascript"
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ed791a47f8fdc6c9c1790a09fe8ff602"
-        ></script>
+        ></script> -->
         <!-- <link rel="stylesheet" href="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/media_sample.css"> -->
-        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/util.js"></script>
+
+        <!-- 1-1. ensil 서버 번들링 전 테스트 -->
+        <!-- <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/util.js"></script>
         <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/src/covisdk.dev.js"></script>
 
-        <!-- <script async src="https://cnp-file.dev.covi.co.kr/sdk/qunda/covisdk_qunda.js"></script> -->
-        
-        <script async src="https://cnp-file.dev.covi.co.kr/sdk/qunda/covi_qunda.js"></script>
+        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/covi_qanda.js"></script> -->
+
+        <!-- 1-2. ensil 서버 번들링 후 테스트 -->
+        <!-- <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-sdk/build/covisdk_qanda.js"></script>
+        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/covi_qanda.js"></script> -->
+
+        <!-- 2-1. ensil 서버 테스트 -->
+        <!-- <script src="https://cnp-file.dev.covi.co.kr/sdk/js/covisdk.js"></script>
+        <script src="https://html5sdk-dev.covi.co.kr/covi-html5-Integration/covi-html5-player/publisher/covi_qanda.js"></script> -->
+
+        <!-- 2-2. dev 서버 테스트 -->
+        <script src="//cnp-file.dev.covi.co.kr/sdk/js/covisdk.js"></script>
+        <script src="//cnp-file.dev.covi.co.kr/sdk/qanda/covi_qanda.js"></script>
 
         <title>media-sample</title>
     </head>
