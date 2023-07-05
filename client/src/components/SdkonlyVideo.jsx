@@ -1,6 +1,6 @@
 const { initCoviSdk, coviClickLandingButton } = window;
 
-const Video = () => {
+const SdkonlyVideo = () => {
     return (
         <>
         <div className="w-[350px] md:w-[500px] mx-auto">
@@ -13,10 +13,9 @@ const Video = () => {
                     다른 광고 재생
                 </button>
             </div>
-            {/* <video className='playerClass1' controls playsInline></video> */}
         </div>
         </>
     );
 };
 
-export default Video;
+export default SdkonlyVideo;
